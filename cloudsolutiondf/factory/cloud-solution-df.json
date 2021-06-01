@@ -1,0 +1,9 @@
+{
+	"name": "cloud-solution-df",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f4ed80b3-8659-4005-b794-29cabbe92570",
+		"tenantId": "668bb04b-64a1-42e1-815e-766254f4c9b0"
+	}
+}
