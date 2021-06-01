@@ -1,0 +1,24 @@
+{
+	"name": "demo-version-control-pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Print Variable",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "runtime_var",
+					"value": "Hello World"
+				}
+			}
+		],
+		"variables": {
+			"runtime_var": {
+				"type": "String",
+				"defaultValue": "\"Hello World!\""
+			}
+		},
+		"annotations": []
+	}
+}
